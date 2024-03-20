@@ -1,6 +1,6 @@
 /*
- Code Implementation in C++ (Decimal to Binary)
- Author : Mehedi Hasan
+ Code Implementation in C++ (Bit Stuffing and De-stuffing)
+ Author: Mehedi Hasan
  Student of GUB
  Department of CSE
 */
@@ -40,7 +40,7 @@ void bit_staffing(int N,int arr[])
         i++;
         j++;
     }
-    cout<<"Output : ";
+    cout<<"Output: ";
     for(i=0; i<j; i++)
     {
         cout<<barr[i];
@@ -77,7 +77,7 @@ void bit_Destaffing(int N,int arr[])
         i++;
         j++;
     }
-    cout<<"Output : ";
+    cout<<"Output: ";
     for(i=0; i<j; i++)
     {
         cout<<barr[i];
