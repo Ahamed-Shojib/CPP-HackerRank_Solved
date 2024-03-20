@@ -1,6 +1,6 @@
 /*
- Code Implementation in C++ (Decimal to Binary)
- Author : Mehedi Hasan
+ Code Implementation in C++ (Decimal to Binary conversion)
+ Author: Mehedi Hasan
  Student of GUB
  Department of CSE
 */
@@ -18,7 +18,7 @@ void decimal_to_binary(int num){
         i++;
     }
 
-    cout<<"Binary : ";
+    cout<<"Binary: ";
     for(j=i-1;j>=0;j--){
         cout<<arr_binary[j];
     }
